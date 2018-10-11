@@ -1,9 +1,9 @@
 {
-  "name": "ajax-form",
+  "name": "formax",
   "version": "1.0.0",
   "description": "Submit Form Using Ajax",
   "main": "src",
-  "repository": "git@github.com:lperlaki/ajax-form.git",
+  "repository": "git@github.com:lperlaki/formax.git",
   "author": "Liam Perlaki <lperlaki@icloud.com>",
   "license": "MIT",
   "devDependencies": {
