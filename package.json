@@ -1,0 +1,16 @@
+{
+  "name": "ajax-form",
+  "version": "1.0.0",
+  "description": "Submit Form Using Ajax",
+  "main": "src",
+  "repository": "git@github.com:lperlaki/ajax-form.git",
+  "author": "Liam Perlaki <lperlaki@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  }
+}
