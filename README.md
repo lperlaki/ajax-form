@@ -7,7 +7,7 @@ index.html
 ```html
 <html>
 <head>
-    <script defer src="//unpkg.com/formax/dist/main.js"></script>
+    <script defer src="unpkg.com/formax"></script>
     <script defer src="main.js"></script>
 </head>
 <body>
