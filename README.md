@@ -1,6 +1,6 @@
-# Ajay Form
+# Formax
 
-> Submit forms with Ajax
+> Submit Forms with Ajax
 
 index.html
 
