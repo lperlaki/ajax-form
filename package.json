@@ -12,5 +12,11 @@
   },
   "scripts": {
     "build": "webpack --mode production"
-  }
+  },
+  "keywords": [
+    "ajax",
+    "form",
+    "fetch",
+    "ajax-form"
+  ]
 }
