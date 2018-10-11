@@ -1,6 +1,6 @@
 {
   "name": "formax",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Submit Form Using Ajax",
   "main": "dist/main.js",
   "repository": "git@github.com:lperlaki/formax.git",
