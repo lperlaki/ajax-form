@@ -12,7 +12,8 @@
     "webpack-cli": "^3.1.2"
   },
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "pub": "yarn build; yarn publish"
   },
   "keywords": [
     "ajax",

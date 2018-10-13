@@ -14,7 +14,7 @@ async function submitForm(event) {
         const options = {
             method: method,
             headers: {
-                'Content-Type': 'text/plain,application/json; charset=utf-8'
+                'Content-Type': 'application/json,text/plain; charset=utf-8'
             },
         }
 
