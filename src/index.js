@@ -1,11 +1,8 @@
-function formToJson(element) {
-    const form = new FormData(element)
-    const data = {}
-    for (let k of form.keys()) {
-        data[k] = form.get(k)
-    }
-    return data
-}
+const formToObj = (element) => [...(new FormData(element)).entries()].reduce((obj, [key, value]) => {
+    obj[key] = value;
+    return obj
+}, {});
+
 
 async function submitForm(event) {
     event.preventDefault()
@@ -19,7 +16,7 @@ async function submitForm(event) {
         }
 
         if (method != 'GET') {
-            options.body = JSON.stringify(formToJson(this))
+            options.body = JSON.stringify(formToObj(this))
         }
 
         this.dispatchEvent(new CustomEvent('success', {
